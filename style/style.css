@@ -1,25 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 20PX;
+    padding: 10px 200px;
 }
  nav > ul{
     display: flex;
-   
-    
 
-    
+      
 }
  ul li{
     display: flex;
     align-items: center;
-    
-    
-
+    padding: 20px;
 }
 .nav-title{
     font-size: 45px;
@@ -35,7 +39,7 @@ line-height: normal;
     border-radius: 5px;
 background: #FD6E0A;
 border:none;
-padding: 15px 20px;
+padding: 15px 15px;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -49,4 +53,31 @@ nav li{
 nav a{
     text-decoration: none;
     color: black;
+}
+img{
+    width: 584px;
+height: 676px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.gretting{
+    margin-bottom: 10px;
+    font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.banner-tittle{
+    margin-bottom: 10px;
+    font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.para{
+    margin-bottom: 15px;
 }
